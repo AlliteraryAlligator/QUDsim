@@ -1,0 +1,5 @@
+pandas
+nltk
+numpy
+openai
+tqdm
