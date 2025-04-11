@@ -511,7 +511,7 @@ if __name__ == '__main__':
     gpt_client = openai.GPT(gpt_model=config.GPT_MODEL)
     parser = argparse.ArgumentParser()
     parser.add_argument('--level', type=int, default=1, required=False, help='specifies level of abstraction as 0 or 1')
-    parser.add_argument('--query_file', type=str, default='data', required=True)
+    parser.add_argument('--query_file', type=str, default='example_query.json', required=True)
     parser.add_argument('--qg_gpt_model', type=str, default=config.GPT_MODEL, required=False)
     parser.add_argument('--qa_gpt_model', type=str, default=config.GPT_MODEL, required=False)
     parser.add_argument('--unique', type=bool, default=1, required=False, help="specifies if quds should be regenerated for every instance of a given document")
