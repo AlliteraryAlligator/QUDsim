@@ -47,6 +47,22 @@ class PairType:
     IN_DOMAIN = "in-domain"
     MINIMAL_PAIR = "minimal-pair"
 
+class SimilarityColumns:
+    SOURCE_PROMPT = 'Source Prompt'
+    TARGET_PROMPT = 'Target Prompt'
+    SOURCE_ID = 'Source ID'
+    TARGET_ID = 'Target ID'
+    SOURCE_MODEL = 'Source Model'
+    TARGET_MODEL = 'Target Model'
+    SOURCE_DOMAIN = 'Source Domain'
+    TARGET_DOMAIN = 'Target Domain'
+    PAIR_TYPE = 'Pair Type'
+    LABELER = 'Labeler'
+    LEVEL = 'Level'
+    SEGMENT_SCORES = 'Segment Scores'
+    THRESHOLD_SCORES = 'Threshold Scores'
+    SIMILARITY = 'Similarity'
+
 class PairColumns:
     ID1 = "Doc1 ID"
     ID2 = "Doc2 ID"
