@@ -1,5 +1,11 @@
 # QUDsim: Quantifying Discourse Similarities in LLM-Generated Text
+Authors: Ramya Namuduri, Yating Wu, Asher Zheng, Manya Wadhwa, Jessy Li, Greg Durrett
 
+Compare documents (stories, articles, blog posts, or even obituaries) and see how similar their discourse progressions are. Discourse progression refers to the backbone structure of a text (for example, tropes in stories). 
+
+This repository contains details on the entire process of generating and using QUDs (Questions Under Discussion) to find discourse similarities.
+
+Check out our paper on QUDsim for more!
 
 ## Installation/Setup
 
